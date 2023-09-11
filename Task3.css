@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(145, 170, 140);
+}
+.main{
+    display:grid;
+    grid-template-columns: 1fr 1.5fr;
+    place-content: center;
+}
+.leftside{
+    background-color: lavender;
+    width: 100%;
+    height: 720px;
+}
+.image{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 250px;
+}
+.contact{
+    justify-content: space-between;
+}
+.btech{
+    margin-left: 20px;
+}
+.inter{
+    margin-left: 10px;
+}
+.school{
+    margin-left: 10px;
+}
+.education{
+    justify-content: space-between;
+}
+.name{
+ margin-left: 50px;
+}
+.sign{
+    margin-top: 100px;
+    margin-right: 20px;
+    text-align-last: end;
+}
